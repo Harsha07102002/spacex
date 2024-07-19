@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceX Launch Data Viewer</title>
+    <link rel="stylesheet" href="space.css">
+    <link rel="icon" type="image/x-icon" href="/img/spacex.jpeg">
+</head>
+<body>
+    <header>
+        <h1>SpaceX Launch Data Viewer</h1>
+    </header>
+    <main>
+        <section id="upcoming-launches">
+            <h2>Upcoming Launches</h2>
+            <img src="img/upcoming.png" height="300px" width="600px">
+            <br><button id="toggle-upcoming-launches">Show Upcoming Launches</button>
+            <div id="upcoming-launches-container"></div>
+        </section>
+        <section id="past-launches">
+            <h2>Past Launches</h2>
+            <img src="img/past.jpeg" height="300px" width="600px">
+            <br><button id="toggle-past-launches">Show Past Launches</button>
+            <div id="past-launches-container"></div>
+        </section>
+    </main>
+    <script src="space.js"></script>
+</body>
+</html>
